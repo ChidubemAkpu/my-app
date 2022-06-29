@@ -45,7 +45,10 @@ main{
     display:flex;
     justify-content: space-between;
     align-items: center;
+
     padding:0.7em;
+    padding:0.5em;
+
     background: #404690;
 }
 .other-menu{
