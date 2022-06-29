@@ -24,6 +24,7 @@ nav{
 }
 main{
     padding:0.8em;
+    margin-top:4em;
 }
 .menu-icons{
     height:1.2em;
@@ -44,7 +45,7 @@ main{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:0.5sem;
+    padding:0.7em;
     background: #404690;
 }
 .other-menu{
@@ -139,7 +140,6 @@ span{
     width:7em;
     background:#404690;
     position:absolute;
-    backdrop-filter: blur(87px);
     left:-5.5em;
     border-radius:50%;
     top:1em;
@@ -160,6 +160,7 @@ span{
     display:flex;
     gap:0.5em;
     align-items: center;
+    justify-content: space-between;
 }
 .post-message{
     color:#403C3C;
@@ -174,6 +175,9 @@ span{
    
 .each-menu{
     display:flex;
+}
+.each-menu:hover{
+    background:#403C3C;
 }
 .company-name{
     display:flex;
@@ -213,9 +217,6 @@ span{
     gap:0.8em;
     align-items: center;
 }
-.each-menu:hover{
-    color:blue;
-}
 .logo{
     padding:3px;
     display:flex;
@@ -231,4 +232,49 @@ span{
 .for-search{
     display:flex;
     margin-bottom:2em;
+    justify-content: space-between;
+}
+
+/* For desktop and tablets */
+@media screen and (min-width:900px){
+ nav{
+    background: #FAFAFA;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    margin-left:28vw;
+ }
+ #hamburger{
+    display:none;
+ }
+ main{
+    margin-left:28vw;
+ }
+ #menu-stuff{
+    width:28vw;
+    overflow-y: scroll;
+    display:block; 
+ }
+ .stat-container{
+    grid-template-columns: repeat(4,1fr);
+ }
+ .chat-section{
+    width:60%;
+ }
+ .top-nav{
+    background: #FAFAFA;
+    color: #404690;
+ }
+ .menu-items>p{
+    display:none;
+ }
+ 
+ .stat{
+    padding:2em 1em 3em;
+ }
+ .stat::before{
+    left:-6.3em;
+ }
+ .overall-stat::before{
+    left:-6em;
+ }
 }

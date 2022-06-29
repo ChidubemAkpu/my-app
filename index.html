@@ -14,10 +14,15 @@
 <body>
     <nav>
         <div class="top-nav">
-                <img src="images/bars-solid(1).svg" alt="" class="menu-icons" onclick="openme()">
+                <img src="images/bars-solid(1).svg" alt="" class="menu-icons" id="hamburger" onclick="openme()">
             
             <div class="other-menu">
-                <img src="images/BellRegular.svg" alt="" class="menu-icons">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="images/BellRegularblue.svg">
+                    <source media="(min-width: 0px)" srcset="images/BellRegular.svg">
+                    <img src="images/BellRegular.svg" alt="" class="menu-icons">
+                </picture>
+
                 <h3>Hi, Olayinka</h3>
                 <div class="image-container">
                     <img src="images/profile.png" alt="my profile" id="profile-image">
@@ -36,7 +41,7 @@
     
     <div  id="menu-stuff">
         <div class="menu-items">
-            <p onclick="closeme()">X</p>
+            <p onclick="closeme()"><b>X</b></p>
         <div class="company-name">
             <div class="logo">360</div>
             <div class="name">360 Corporation</div>
@@ -115,7 +120,8 @@
                 <div class="stat">
                     <div class="stat-content">
                         <p>Sales <span>N16,345.00</span></p>
-                        <img src="images/signal-solid.svg" alt="" id="in-stat">
+                            <img  src="images/signal-solid.svg" id="in-stat">
+
                     </div>
     
                 </div>
