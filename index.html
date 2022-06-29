@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    <title>Cloned app</title>
+</head>
+<body>
+    <nav>
+        <div class="top-nav">
+                <img src="images/bars-solid(1).svg" alt="" class="menu-icons" onclick="openme()">
+            
+            <div class="other-menu">
+                <img src="images/BellRegular.svg" alt="" class="menu-icons">
+                <h3>Hi, Olayinka</h3>
+                <div class="image-container">
+                    <img src="images/profile.png" alt="my profile" id="profile-image">
+                </div>
+
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="search">
+                <img src="images/magnifying-glass-solid.svg" alt="" class="menu-icons">
+                <input type="search" name="search" id="main-search" placeholder="search...">
+            </div>
+
+        </div>
+    </nav>
+    
+    <div  id="menu-stuff">
+        <div class="menu-items">
+            <p onclick="closeme()">X</p>
+        <div class="company-name">
+            <div class="logo">360</div>
+            <div class="name">360 Corporation</div>
+        </div>
+        <div class="main-menu-list">
+            <div class="each-menu">
+                <img src="images/GridViewTwotone.svg" alt="" class="menu-icons">
+                <p>Dashboard</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/SettingsOutline.svg" alt="" class="menu-icons">
+                <p>Settings</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/Comment28Regular.svg" alt="" class="menu-icons" >
+                <p>Feeds</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/Messages.svg" alt="" class="menu-icons">
+                <p>User Managements</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/ContactCard24Regular.svg" alt="" class="menu-icons">
+                <p>Contacts Managements</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/DeploymentUnitOutlined.svg" alt="" class="menu-icons">
+                <p>Departments</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/SettingsOutline.svg" alt="" class="menu-icons">
+                <p>Schedule and reports</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/truck-moving-solid(1).svg" alt="" class="menu-icons">
+                <p>Inventory</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/DiscountOutlined(1).svg" alt="" class="menu-icons">
+                <p>Sales & Payments</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/LocationCompany.svg" alt="" class="menu-icons">
+                <p>Companies</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/MarkChatReadOutlined.svg" alt="" class="menu-icons">
+                <p>Requests</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/Comment28Regular.svg" alt="" class="menu-icons">
+                <p>Messaging</p>
+            </div>
+            <div class="each-menu">
+                <img src="images/ConferenceRoom28Regular.svg" alt="" class="menu-icons">
+                <p>Conferencing</p>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+    <main>
+        <div class="stat-container">
+            <div class="overall-stat">
+                <div class="stat">
+                    <div class="stat-content">
+                        <p>Products <span>3</span></p>
+                        <img src="images/box-open-solid.svg" alt="" id="in-stat">
+                    </div>
+    
+                </div>
+            </div>
+
+            <div class="overall-stat">
+                <div class="stat">
+                    <div class="stat-content">
+                        <p>Sales <span>N16,345.00</span></p>
+                        <img src="images/signal-solid.svg" alt="" id="in-stat">
+                    </div>
+    
+                </div>
+            </div>
+            <div class="overall-stat">
+                <div class="stat">
+                    <div class="stat-content">
+                        <p>Posts <span>177</span></p>
+                        <img src="images/MessageTwotone.svg" alt="" id="in-stat">
+                    </div>
+    
+                </div>
+            </div>
+            <div class="overall-stat">
+                <div class="stat">
+                    <div class="stat-content">
+                        <p>Users <span>107</span></p>
+                        <img src="images/users-solid.svg" alt="" id="in-stat">
+                    </div>
+                </div>
+    
+            </div>
+
+            </div>
+        </div>
+        <section class="chat-section">
+            <div class="for-search">
+                <div class="search-chat">
+                    <img src="images/MessageTwotone.svg" alt="" id="in-stat">
+                    <p>Recent General feed</p>
+                </div>
+                <div class="search-comment">
+                    <img src="images/magnifying-glass-solid.svg" alt="" class="menu-icons">
+                    <input type="search" name="search" id="main-search" placeholder="search...">
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-heading">
+                    <div class="post-heading-profile">
+                        <div class="image-container">
+                            <img src="images/profile.png" alt="my profile" id="profile-image">
+                        </div>
+                        <p>Moses Olaniyi</p>
+                    </div>
+                    <div class="post-heading-date">
+                        Tue 24 May, 2022 04. 01:222
+                    </div>
+                </div>
+                <div class="post-message">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident inventore cupiditate harum aperiam illo eos voluptas nam dolore architecto recusandae facere quasi autem, ducimus, ratione quo sequi? Eius, dolorem sed!
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-heading">
+                    <div class="post-heading-profile">
+                        <div class="image-container">
+                            <img src="images/profile.png" alt="my profile" id="profile-image">
+                        </div>
+                        <p>Obinna Okeke</p>
+                    </div>
+                    <div class="post-heading-date">
+                        Tue 24 May, 2022 04. 01:222
+                    </div>
+                </div>
+                <div class="post-message">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident inventore cupiditate harum aperiam illo eos voluptas nam dolore architecto recusandae facere quasi autem, ducimus, ratione quo sequi? Eius, dolorem sed!
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-heading">
+                    <div class="post-heading-profile">
+                        <div class="image-container">
+                            <img src="images/profile.png" alt="my profile" id="profile-image">
+                        </div>
+                        <p>Michael Jude</p>
+                    </div>
+                    <div class="post-heading-date">
+                        Tue 24 May, 2022 04. 01:222
+                    </div>
+                </div>
+                <div class="post-message">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident inventore cupiditate harum aperiam illo eos voluptas nam dolore architecto recusandae facere quasi autem, ducimus, ratione quo sequi? Eius, dolorem sed!
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post-heading">
+                    <div class="post-heading-profile">
+                        <div class="image-container">
+                            <img src="images/profile.png" alt="my profile" id="profile-image">
+                        </div>
+                        <p>Prisca Hamza</p>
+                    </div>
+                    <div class="post-heading-date">
+                        Tue 24 May, 2022 04. 01:222
+                    </div>
+                </div>
+                <div class="post-message">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident inventore cupiditate harum aperiam illo eos voluptas nam dolore architecto recusandae facere quasi autem, ducimus, ratione quo sequi? Eius, dolorem sed!
+                </div>
+            </div>    
+        </section>
+    </main>
+    
+</body>
+</html>
