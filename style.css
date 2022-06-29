@@ -44,7 +44,7 @@ main{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:0.5em;
+    padding:0.5sem;
     background: #404690;
 }
 .other-menu{
@@ -198,7 +198,7 @@ span{
     row-gap: 3em;
     padding:1em;
 }
-.menu-list p{
+#menu-stuff p{
     text-align:right;
     cursor:pointer;
 }
