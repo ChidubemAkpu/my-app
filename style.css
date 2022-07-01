@@ -16,6 +16,7 @@ nav{
     color:white;
     display:flex;
     flex-direction:column;
+    position: -webkit-sticky;
     position:sticky;
     top:0;
     left:0;
@@ -162,6 +163,11 @@ span{
     border-radius:50%;
     top:1em;
 }
+.main-search{
+    width:100%;
+    color:#404690;
+    font-weight:700;
+}
 .stat-content{
     display:flex;
     justify-content: space-between;
@@ -170,7 +176,7 @@ span{
     color:#242966;
     font-weight: 700;
 }
-#in-stat{
+.in-stat{
     height:2em;
     width:2em;
 }

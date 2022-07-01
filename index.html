@@ -7,14 +7,14 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     
     <title>Cloned app</title>
 </head>
 <body>
     <nav>
         <div class="top-nav">
-                <img src="images/bars-solid(1).svg" alt="" class="menu-icons" id="hamburger" onclick="openme()">
+                <img src="images/bars-solid(1).svg" alt="" class="menu-icons" id="hamburger" >
             
             <div class="other-menu">
             <div class="notification">
@@ -35,7 +35,7 @@
         <div class="bottom-nav">
             <div class="search">
                 <img src="images/magnifying-glass-solid.svg" alt="" class="menu-icons">
-                <input type="search" name="search" id="main-search" placeholder="search...">
+                <input type="search" name="search" class="main-search" placeholder="search...">
             </div>
 
         </div>
@@ -43,7 +43,7 @@
     
     <div  id="menu-stuff">
         <div class="menu-items">
-            <p onclick="closeme()"><b>X</b></p>
+            <p id="close-me"><b>X</b></p>
         <div class="company-name">
             <div class="logo">360</div>
             <div class="name">360 Corporation</div>
@@ -112,7 +112,7 @@
                 <div class="stat">
                     <div class="stat-content">
                         <p>Products <span>3</span></p>
-                        <img src="images/box-open-solid.svg" alt="" id="in-stat">
+                        <img src="images/box-open-solid.svg" alt="" class="in-stat">
                     </div>
     
                 </div>
@@ -122,7 +122,7 @@
                 <div class="stat">
                     <div class="stat-content">
                         <p>Sales <span>N16,345.00</span></p>
-                            <img  src="images/signal-solid.svg" id="in-stat">
+                            <img  src="images/signal-solid.svg"  alt="" class="in-stat">
 
                     </div>
     
@@ -132,7 +132,7 @@
                 <div class="stat">
                     <div class="stat-content">
                         <p>Posts <span>177</span></p>
-                        <img src="images/MessageTwotone.svg" alt="" id="in-stat">
+                        <img src="images/MessageTwotone.svg" alt="" class="in-stat">
                     </div>
     
                 </div>
@@ -141,7 +141,7 @@
                 <div class="stat">
                     <div class="stat-content">
                         <p>Users <span>107</span></p>
-                        <img src="images/users-solid.svg" alt="" id="in-stat">
+                        <img src="images/users-solid.svg" alt="" class="in-stat">
                     </div>
                 </div>
     
@@ -152,12 +152,12 @@
         <section class="chat-section">
             <div class="for-search">
                 <div class="search-chat">
-                    <img src="images/MessageTwotone.svg" alt="" id="in-stat">
+                    <img src="images/MessageTwotone.svg" alt="" class="in-stat">
                     <p>Recent General feed</p>
                 </div>
                 <div class="search-comment">
                     <img src="images/magnifying-glass-solid.svg" alt="" class="menu-icons">
-                    <input type="search" name="search" id="main-search" placeholder="search...">
+                    <input type="search" name="search" class="main-search" placeholder="search...">
                 </div>
             </div>
             <div class="posts">
