@@ -2,7 +2,7 @@
 ## Overview
 ***This is a challenge inspired by a friend who designed the same UI using Vue js. I had to pick up the challenge and use the three basic web development stack-HTML, CSS and JAVASCRIPT within 3 months of learning frontend development.***
 ## Features
-***This is a frontend app and nothing complex happen in the backend. It is my first project that got much validation in my journey tthrough becoming a frontend developer but it has got pretty good features that make it a clean site:***
+***This is a frontend app and nothing complex happens in the backend. It is my first project that got so much validation in my journey through becoming a frontend developer but it has got pretty good features that make it a clean site:***
 * The code is maintainable-I made sure I used simple codes to do complex things.
 * It scores high in accessibility-I used proper html semantics to structure this coode making it score high in accessibility
 * It is very responsive-I made sure it is responsive across all devices regardless of the width of such device.
